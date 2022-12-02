@@ -1,0 +1,39 @@
+.container {
+    width: 700px;
+    text-align: center;
+    margin: 0 auto;
+}
+label {
+    display: inline-block;
+    min-width: 100px;
+    text-align: right;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+#container-1, #container-5 {
+    background-color: chartreuse;
+    padding: 10px;
+}
+#container-2, #container-6 {
+    background-color: chocolate;
+    padding: 10px;
+}
+#container-3, #container-7 {
+    background-color: cadetblue;
+    padding: 10px;
+}
+#container-4 {
+    background-color: darkorange;
+    padding: 10px;
+}
+button {
+    background-color: #008CBA; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
