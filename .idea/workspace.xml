@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eac6f047-effa-4933-bc10-13cfcf5fb1d2" name="Changes" comment="" />
+    <list default="true" id="eac6f047-effa-4933-bc10-13cfcf5fb1d2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grid-ajax-infinite-scroll.php" beforeDir="false" afterPath="$PROJECT_DIR$/grid-ajax-infinite-scroll.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grid-ajax.php" beforeDir="false" afterPath="$PROJECT_DIR$/grid-ajax.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grid.php" beforeDir="false" afterPath="$PROJECT_DIR$/grid.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/select-two.php" beforeDir="false" afterPath="$PROJECT_DIR$/select-two.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +15,9 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -42,7 +51,8 @@
       <option name="presentableId" value="Default" />
       <updated>1669493916507</updated>
       <workItem from="1669493917579" duration="14011000" />
-      <workItem from="1669706926973" duration="19657000" />
+      <workItem from="1669706926973" duration="20063000" />
+      <workItem from="1669971848076" duration="2337000" />
     </task>
     <servers />
   </component>

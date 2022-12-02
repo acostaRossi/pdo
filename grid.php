@@ -5,7 +5,7 @@ require_once "db-config.php";
 $pdo = connectToDB();
 
 $offset = 0;
-$limit = 10;
+$limit = 5;
 
 if(isset($_GET['offset'])) {
 
@@ -66,8 +66,8 @@ $stmt = $pdo->query("SELECT * FROM users LIMIT $limit OFFSET $offset");
 
         </tbody>
     </table>
-    <a href="grid.php?offset=<?php echo ($offset - 10) ?>">Page prev</a>
-    <a href="grid.php?offset=<?php echo ($offset + 10) ?>">Page next</a>
+    <a href="grid.php?offset=<?php echo ($offset - $limit) ?>">Page prev</a>
+    <a href="grid.php?offset=<?php echo ($offset + $limit) ?>">Page next</a>
 </div>
 
 <script src="assets/js/index.js"></script>

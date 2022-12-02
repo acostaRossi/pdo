@@ -76,7 +76,7 @@ if(isset($_GET['type']) && strtolower($_GET['type']) == 'ajax')
         fetch(baseUrl + "grid-ajax-infinite-scroll.php?type=ajax&offset=" + offset)
             .then(response => response.json())
             .then(result => {
-                for(index in result) {
+                for(let index in result) {
                     let record = result[index];
                     let html = template;
                     html = html.replace(":ID", record["id"]);

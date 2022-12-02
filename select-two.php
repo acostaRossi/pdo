@@ -6,17 +6,18 @@ $pdo = connectToDB();
 
 if ($pdo) {
 
-    /* SQL INJECTION */
+    /* SQL INJECTION
     $sql = "SELECT * FROM users WHERE id = " . $_POST["id"];
     $record = $pdo->query($sql)->fetch();
+    */
 
-    /* PREVENT SQL INJECTION
-    $sql = "SELECT * FROM sample WHERE id = :id";
+    /* PREVENT SQL INJECTION */
+    $sql = "SELECT * FROM users WHERE id = :id";
     $stmt = $pdo->prepare($sql);
     $stmt->bindValue("id", $_POST["id"], PDO::PARAM_INT);
     $stmt->execute();
     $record = $stmt->fetch();
-    */
+
 
     $msg = "";
 

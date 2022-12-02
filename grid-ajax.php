@@ -52,7 +52,7 @@ if(isset($_GET['type']) && strtolower($_GET['type']) == 'ajax')
 
     let baseUrl = "http://10.211.55.3/pdo/";
 
-    let template = "<td>" +
+    let template = "<tr>" +
         "<td>:ID</td>" +
         "<td>:NAME</td>" +
         "<td>:AGE</td>" +
