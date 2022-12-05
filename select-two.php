@@ -9,7 +9,7 @@ if ($pdo) {
     /* SQL INJECTION
     $sql = "SELECT * FROM users WHERE id = " . $_POST["id"];
     $record = $pdo->query($sql)->fetch();
-    */
+
 
     /* PREVENT SQL INJECTION */
     $sql = "SELECT * FROM users WHERE id = :id";
